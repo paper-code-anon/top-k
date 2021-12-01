@@ -35,7 +35,7 @@ These values are explained in detail in Section 3 of the paper.
 
 ## Example
 The file general_top_k_workflow.py has been setup to apply the Top-k workflow to a sample dataset. This dataset can be 
-retrieved here: https://www.kaggle.com/tomtillo/top-ranked-kaggle-user-activity-1-1000-ranks and needs the file
+retrieved here: https://www.kaggle.com/tomtillo/top-ranked-kaggle-user-activity-1-1000-ranks and the script needs this file
 USER_ACTIVITY.csv to be placed in the directory. Running this script will apply the algorithm to this dataset for 
 varying input parameters, and save the results with some analytics. The input parameters can be modified and 
 experimented with. 
