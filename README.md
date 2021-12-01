@@ -33,6 +33,13 @@ frequency. As the next elements of the tuple, Algorithm 1 will return the v_perp
 have been calculated by the algorithm. Algorithm 2 will return only epsilon_1 and epsilon_2 as the other tuple elements.
 These values are explained in detail in Section 3 of the paper. 
 
+## Example
+The file general_top_k_workflow.py has been setup to apply the Top-k workflow to a sample dataset. This dataset can be 
+retrieved here: https://www.kaggle.com/tomtillo/top-ranked-kaggle-user-activity-1-1000-ranks and needs the file
+USER_ACTIVITY.csv to be placed in the directory. Running this script will apply the algorithm to this dataset for 
+varying input parameters, and save the results with some analytics. The input parameters can be modified and 
+experimented with. 
+
 ## γ Experimentation
 plot_new_gamma.py contains the code used to generate the γ comparisons used in Figure 7. Input privacy and algorithm 
 parameters can be configured to experiment with the rate of violations of completeness across varying β values.
